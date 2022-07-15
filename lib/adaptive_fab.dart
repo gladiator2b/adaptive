@@ -1,7 +1,10 @@
 library adaptive_fab;
+import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
+import 'dart:io';
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+class Adaptive {
+  static bool isIOS() =>(!Platform.isIOS);
+
+
 }
